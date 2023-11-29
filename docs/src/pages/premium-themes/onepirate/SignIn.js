@@ -12,7 +12,7 @@ import FormButton from './modules/form/FormButton';
 import FormFeedback from './modules/form/FormFeedback';
 import withRoot from './modules/withRoot';
 
-function SignIn() {
+function () => {
   const [sent, setSent] = React.useState(false);
 
   const validate = (values) => {
